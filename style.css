@@ -1,17 +1,30 @@
 body{
     background-color: lightpink;
 }
-table{
+#menu{
     border-spacing: 0ch;
     border: solid black 1px;
 }
-th{
-    border: solid black;
-    background-color: rgb(0, 248, 54);
+#cost{
+    border: solid rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0);
+    
 }
-td{
+#items{
     border: solid rgb(255, 0, 0) 1px;
     padding: 5px;
     color: white;
     background-color: black;
+}
+table{
+    border-spacing: 0ch;
+}
+tr{
+    background-color: tan;
+}
+td{
+    border: solid #5ba079;
+    padding: 5px;
+    color: black;
+    background-color:tan;
 }
